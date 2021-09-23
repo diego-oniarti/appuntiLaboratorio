@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  char carattere;
+  cout << "Digitare un carattere: ";
+  cin >> carattere;
+  cout << "Hai digitato: "<<carattere<<endl
+
+    return 0;
+}

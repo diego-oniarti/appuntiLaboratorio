@@ -1,0 +1,8 @@
+23/09/2021
+
+cout.precision(2); 	Limita la lunghezza degli output a 2 cifre (23.22 diventa 23)
+cout << fixed; 		Fa in modo che la precisione venga applicata solo alla parte decimale
+
+Dopo aver usato il fixed, la modifica vale per tutto il programma
+Può essere annullato con defaultfloat
+
