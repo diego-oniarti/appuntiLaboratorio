@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int ore,minuti,secondi;
+
+  cout << "Inserire orario: ";
+  cin >> ore >> minuti >> secondi;
+
+  cout << "Minuti a mezzanotte: " << ((ore*60)+minuti)*60+secondi;
+  
+  return 0;
+}

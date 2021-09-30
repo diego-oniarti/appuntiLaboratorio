@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int secondi;
+  cout << "Inserire numero secondi: ";
+  cin >> secondi;
+  cout << secondi<<endl;
+  return 0;
+}
