@@ -7,6 +7,7 @@ int main(){
   cout << "Inserire A, B e C:"<<endl;
   cin >> a >> b >> c;
 
+  cout << "Numero minore: ";
   if (a>b) goto escludiA;
   if (a>c) goto C;
   goto A;
