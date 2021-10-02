@@ -1,6 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Dati 2 numeri A e B, indica il maggiore ed il minore
 int main(){
   float a,b;
 

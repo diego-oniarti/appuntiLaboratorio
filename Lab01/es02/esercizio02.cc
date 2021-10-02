@@ -1,3 +1,4 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
@@ -10,6 +11,7 @@ float potenza(float base, int esponente){
   return risultato;
 }
 
+//Dato un raggio scelto dall'utente, calcola e visualizza l'area e la circonferenza
 int main(){
   const float PI = 3.14;
   float raggio,area,circonferenza;

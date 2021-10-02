@@ -1,6 +1,9 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Dati 3 valori in input, indica il minore
+//questa programmazione è best practice e questo codice non può essere migliorato
 int main(){
   float a,b,c;
 

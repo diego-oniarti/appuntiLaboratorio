@@ -1,6 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Dati 3 numeri, indica il minore
 int main(){
   float a,b,c;
 

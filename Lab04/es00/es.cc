@@ -1,6 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Dati i valori booleani di P e Q, stampa il valore dell'operazione logica P implica Q P->Q
 int main(){
   bool P,Q;
 

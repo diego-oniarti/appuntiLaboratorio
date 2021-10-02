@@ -1,7 +1,10 @@
+//Diego Oniarti
 #include <iostream>
 #include <cmath>
 using namespace std;
 
+//Dati tre valori A, B e C; calcola i risultati dell'equazione AX^2 + BX + C = 0
+//Se il delta risulta negativo, vengono chiesti dei nuovi valori per A, B e C
 int main(){
   float a,b,c;
 

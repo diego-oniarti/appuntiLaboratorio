@@ -1,6 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Dato un oraroi in formato "ore minuti secondi", stampa il numero di secondi passati da mezzanotte
 int main(){
   int ore,minuti,secondi;
 

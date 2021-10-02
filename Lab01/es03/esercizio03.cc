@@ -1,6 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Converte una temperatura indicata dall'utente da Fahrenheit a Celsius
 int main(){
   float fahrenheit,celsius;
   cout << "Inserire temperatura in Fahrenheit: ";

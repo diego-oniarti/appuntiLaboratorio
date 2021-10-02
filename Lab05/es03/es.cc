@@ -1,6 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
 
+//Dato in unput un numero da 1 a 7, scrive il nome del giorno della settimana corrispondente
 int main(){
   int N;
   cout << "Inserire numero settimana: "; 

@@ -1,5 +1,8 @@
+//Diego Oniarti
 #include <iostream>
 using namespace std;
+
+//Dati due numeri A ed N, calcola i primi N valori di A^N
 int main(){
   float a,N;
   cout << "Inserire A e N:" << endl;

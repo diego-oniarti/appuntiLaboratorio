@@ -1,7 +1,9 @@
+//Diego Oniari
 #include <iostream>
 #include <cmath>
 using namespace std;
 
+//Dati i coefficienti a, b e c dell'equazione di secondo grado (ax^2 + bx + c = 0), ne calcola i risultati
 int main(){
   float a,b,c;
   float x1,x2;
