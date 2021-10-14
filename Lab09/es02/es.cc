@@ -18,11 +18,7 @@ int main(){
 
 
 void sistema(int *ore, int* minuti, int* secondi){
-  int restoSecondi, restoMinuti;
-  
-  *secondi = divisione(*secondi,60,&restoSecondi);
-  *minuti = divisione((*minuti)+(restoSecondi),60,&restoMinuti);
-  (*ore) += (restoMinuti);
+  *ore += divisione(*minuti+( divisione(*secondi,60,secondi) ),60,minuti);
   return;
 }
 
@@ -32,7 +28,6 @@ int divisione(int a, int b, int* resto){
     ++ret;
     a-=b;
   }
-
   *resto = a;
   return ret;
 }
